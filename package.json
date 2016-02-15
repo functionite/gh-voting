@@ -1,0 +1,44 @@
+{
+  "name": "gh-voting",
+  "version": "1.0.0",
+  "description": "A simple +1/:+1: vote calculator for GitHub issues",
+  "main": "votesCalculator.js",
+  "scripts": {
+    "start" : "./votesCalculator.js",
+    "test": "./node_modules/.bin/eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/functionite/gh-voting.git"
+  },
+  "keywords": [
+    "github",
+    "gh",
+    "issues",
+    "voting",
+    "emoji",
+    "calculator"
+  ],
+  "author": "Jarek Rencz <jarek.rencz@functionite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/functionite/gh-voting/issues"
+  },
+  "homepage": "https://github.com/functionite/gh-voting#readme",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "gh-got": "^2.4.0",
+    "github-short-url-regex": "^3.0.0",
+    "lodash": "^4.3.0",
+    "meow": "^3.7.0",
+    "minimist": "^1.2.0",
+    "prompt": "^1.0.0",
+    "regex-iso-date": "^1.0.0",
+    "sha1-regex": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
